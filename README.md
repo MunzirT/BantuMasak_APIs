@@ -14,13 +14,13 @@ BantuMasak is an Android application with a main feature designed to assist hous
 
 ## Features
 
-### JsonWebToke API
+### [JsonWebToke API](https://github.com/MunzirT/spncRecipeAPI/tree/main/jwtAPI)
 - Provides a user REGISTRATION endpoint
 - Provides a user LOGIN endpoint
 - Provides a user token VALIDATION endpoint
 - Provides a user LOGOUT endpoint, as well as DELETES already registered tokens
 
-### Recipe API
+### [Recipe API](https://github.com/MunzirT/spncRecipeAPI/tree/main/theMealsDB-API)
 - Shows all owned recipes (taken from [Spoonacular](https://spoonacular.com) - Open Source API for FOOD Recipes)
 - Provides an endpoint so that users can SEARCH for RECIPES BASED ON THE INGRESIENTS they have.
 - Provides an endpoint for ADMIN to ADD recipes.
