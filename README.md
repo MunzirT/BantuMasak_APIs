@@ -106,6 +106,15 @@ And of course BantuMasak itself is open source
 |`ingredients`| `string` | **Required**. Token from Loing of acount to fetch |
 
 
+## Deployment
+
+To deploy we use Google Cloud Platform. In this folder we use several services to deploy the application
+### Documentations Services to Deploy the Application above:
+ - [Google Cloud Console](https://console.cloud.google.com/)
+ - [Google Cloud SDK](https://cloud.google.com/sdk?hl=id)
+ - [Google Cloud App Engine](https://cloud.google.com/appengine/docs)
+
+
 
 
 
