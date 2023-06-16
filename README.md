@@ -45,43 +45,35 @@ And of course BantuMasak itself is open source
 ## API Auth
 
 #### Get the MAIN page
-
 ```http
   GET http://localhost:3000/
 ```
-
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | ``        | ``       | **Required**. Main Page "Hello, Word" |
 
 #### Post the Register form
-
 ```http
   POST http://localhost:3000/api/auth/register
 ```
-
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `username`      | `string` | **Required**. username of acount to fetch |
 | `password`      | `string` | **Required**. password of item to fetch |
 
 #### Post the Login form
-
 ```http
   POST http://localhost:3000/api/auth/login
 ```
-
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `username`      | `string` | **Required**. username of acount to fetch |
 | `password`      | `string` | **Required**. password of item to fetch |
 
 #### Post the Logout Page
-
 ```http
   POST http://localhost:3000/api/auth/logout
 ```
-
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `Token`      | `Bearer` | **Required**. Token from Loing of acount to fetch |
@@ -90,31 +82,25 @@ And of course BantuMasak itself is open source
 ## API Recipes
 
 #### Get All Recipes
-
 ```http
   GET http://localhost:3000/recipes
 ```
-
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `...`      | `...`    | GET ALL ITEM |
 
 #### Get Recipes by ID
-
 ```http
   POST http://localhost:3000/recipes/{id}
 ```
-
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `id` | **Required**. Token from Loing of acount to fetch |
 
 #### Get Recipes by Ingredients
-
 ```http
   http://localhost:3000/search?
 ```
-
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 |`ingredients`| `string` | **Required**. Token from Loing of acount to fetch |
