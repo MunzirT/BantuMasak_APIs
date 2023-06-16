@@ -41,6 +41,8 @@ BantuMasak uses a number of open source projects to work properly:
 And of course BantuMasak itself is open source
 
 ## Cloud Computing Documentation
+### Application Architecture
+![BantuMasak_CC_Archi drawio](https://github.com/MunzirT/BantuMasak_APIs/assets/104478928/29035674-0879-44cf-a5ff-daca39bb9192)
 
 ## API Auth
 
